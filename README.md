@@ -20,3 +20,15 @@
   - Icons: Newaita-dark
   - Cursor: Bibata-Modern-Ice
   - Splash screen: Illusion
+ 
+-  .bashrc aliases:
+```
+# git alias
+alias gs-="git status"
+alias gd-="git diff --ignore-all-space"
+alias ga-="git add"
+alias gco-="git commit"
+alias gps-="git push"
+alias gpl-="git pull"
+alias gl-="git log"
+```
