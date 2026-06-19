@@ -1,4 +1,4 @@
-**My Fedora KDE Config**
+**My Debian KDE Config**
 
 - Night light always on, 3000K
 - Shortcuts:
