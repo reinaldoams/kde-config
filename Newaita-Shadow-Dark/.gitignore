@@ -1,0 +1,9 @@
+# Icon assets are copied from upstream themes; track build scripts only if desired.
+# Uncomment to ignore generated icon files:
+# apps/
+# actions/
+# devices/
+# emblems/
+# mimetypes/
+# places/
+# panel/

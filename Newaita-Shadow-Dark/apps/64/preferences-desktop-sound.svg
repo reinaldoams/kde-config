@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <circle cx="128" cy="128" r="128" style="fill:#e0e0e0;fill-opacity:1;stroke:none"/>
+  <g transform="translate(32.0,32.0) scale(8.0)">
+    <path id="glyph0" style="fill:#c8c8c8;fill-opacity:1;stroke:none" d="m15.242188 6.7578125-8.4843755 8.4843755 4.7561875 4.757812h8.486v-8.484376z"/>
+  </g>
+</svg>

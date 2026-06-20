@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <circle cx="128" cy="128" r="128" style="fill:#e0e0e0;fill-opacity:1;stroke:none"/>
+  <g transform="translate(32.0,32.0) scale(8.0)">
+    <path id="glyph0" style="fill:#c8c8c8;fill-opacity:1;stroke:none" d="m11 2a2 2 0 0 0 -2 2 2 2 0 0 0 .0449219.40625 5 5 0 0 0 -3.0449219 4.59375v1a4 6 0 0 1 -4 6v1h6 6 1 5v-1a4 6 0 0 1 -4-6v-1a5 5 0 0 0 -3.044922-4.6015625 2 2 0 0 0 .044922-.3984375 2 2 0 0 0 -2-2z"/>
+    <path id="glyph1" style="fill:#c8c8c8;fill-opacity:1;stroke:none" d="m2 16h18v.999999h-18z"/>
+    <path id="glyph2" style="fill:#c8c8c8;fill-opacity:1;stroke:none" d="m12.728516 2.9960938a2 2 0 0 1 -1.728516 1.0039062 5 5 0 0 1 1.955078.3984375 2 2 0 0 0 .044922-.3984375 2 2 0 0 0 -.271484-1.0039062zm-1.728516 1.0039062a2 2 0 0 1 -1.7265625-1 2 2 0 0 0 -.2734375 1 2 2 0 0 0 .046875.40625 5 5 0 0 1 1.953125-.40625z"/>
+    <path id="glyph3" style="fill:#c8c8c8;fill-opacity:1;stroke:none" d="m12.318359 2.4941406a2 2 0 0 1 -1.318359.5058594 2 2 0 0 1 -1.3183594-.5039062 2 2 0 0 0 -.4101562.5097656 2 2 0 0 0 1.7285156.9941406 2 2 0 0 0 1.732422-.9980469 2 2 0 0 0 -.414063-.5078125z"/>
+  </g>
+</svg>

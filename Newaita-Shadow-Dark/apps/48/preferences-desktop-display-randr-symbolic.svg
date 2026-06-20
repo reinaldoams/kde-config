@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <circle cx="128" cy="128" r="128" style="fill:#e0e0e0;fill-opacity:1;stroke:none"/>
+  <g transform="translate(32.0,32.0) scale(8.0)">
+    <path id="glyph0" style="fill:#c8c8c8;fill-opacity:1;stroke:none" d="m7 19h10v1h-10zm3-2h4v2h-4zm-6-13v13h16v-13zm1 1h14v9h-14z"/>
+    <path id="glyph1" style="fill:#c8c8c8;fill-opacity:1;stroke:none" d="m6 9 4 4h-4z"/>
+    <path id="glyph2" style="fill:#c8c8c8;fill-opacity:1;stroke:none" d="m18 10-4-4h4z"/>
+  </g>
+</svg>
