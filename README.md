@@ -24,10 +24,11 @@
   - Plasma style: Breeze Dark
   - Window decorations: Breeze (with action buttons hidden)
   - Icons: Newaita-Shadow-Dark (my "custom" icon pack, with Newaita Dark icons + applications icons from Shadow icons)
-  - Cursor: Bibata-Modern-Ice
+  - Cursors: Bibata-Modern-Ice
+  - System Sounds: FreeDesktop (Oxygen is ok too, never Ocean (sound feedback when changing volume too loud))
   - Splash screen: Illusion
   - Login Screen: Breeze
--  .bashrc aliases:
+- .bashrc aliases:
 ```
 # git alias
 alias gs-="git status"
