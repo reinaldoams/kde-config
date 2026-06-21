@@ -1,17 +1,12 @@
 # My Debian KDE Config
 
 ## Skip GRUB:
-
-  `sudo nano /etc/default/grub`
-
+  `sudo nano /etc/default/grub`\
   add:
     ```
-    GRUB_TIMEOUT_STYLE=hidden
-    GRUB_TIMEOUT=0
-    ```
-
-  then run:
-
+GRUB_TIMEOUT_STYLE=hidden
+GRUB_TIMEOUT=0```\
+  then run:\
   `sudo update-grub`
 ## Applications:
   - Lazygit
@@ -53,9 +48,19 @@ alias gpl-="git pull"
 alias gl-="lazygit log"
 ```
 ## Configuring REAPER audio devices:
-
-  `sudo apt install jackd2 qjackctl`
-  then start it `qjackctl &` (or through krunner)
-  to lower latency, set 'Frames/Period' in JACK
-
+  Find where reaper is:\
+  `find ~/.local/share/applications /usr/share/applications -name "*reaper*" 2>/dev/null`\
+  then change the line starting with ` Exec= ` to\
+  `bash -c 'pw-jack /opt/REAPER/reaper'`\
+  (we need to run pw-jack + reaper for reaper to connect to pipewire devices)
   Then reboot computer
+
+## Setting audio interface as default:
+If JACK can't connect / no audio inputs in Reaper\
+Check what PipeWire sees:\
+```wpctl status```\
+Look under Sources for your audio interface. Note its ID number (the number at the start of the line).\
+Set it as the default source (replace 52 with the actual ID):\
+```wpctl set-default 52```\
+Verify the * asterisk moved to your interface:\
+```wpctl status | grep -A10 "Sources"```
