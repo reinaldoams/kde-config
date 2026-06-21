@@ -54,6 +54,8 @@ alias gl-="lazygit log"
 ```
 ## Configuring REAPER audio devices:
 
-  `sudo apt update && sudo apt install pipewire-jack pipewire-audio-client-libraries`
+  `sudo apt install jackd2 qjackctl`
+  then start it `qjackctl &` (or through krunner)
+  to lower latency, set 'Frames/Period' in JACK
 
   Then reboot computer
