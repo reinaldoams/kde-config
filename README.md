@@ -47,6 +47,13 @@ alias gps-="git push"
 alias gpl-="git pull"
 alias gl-="lazygit log"
 ```
+### Lazygit config for the `lazygit log` to always open showing all commits (instead of only commits in the current branch):
+in `~/.config/lazygit/config.yml`
+```
+git:
+  log:
+    showWholeGraph: true
+```
 ## Configuring REAPER audio devices:
   Find where reaper is:\
   `find ~/.local/share/applications /usr/share/applications -name "*reaper*" 2>/dev/null`\
