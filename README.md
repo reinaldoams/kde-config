@@ -36,6 +36,7 @@ GRUB_TIMEOUT=0```\
   - System Sounds: FreeDesktop (Oxygen is ok too, never Ocean (sound feedback when changing volume too loud))
   - Splash screen: Illusion
   - Login Screen: Breeze
+  - Font for clock in panel: Unifont
 ## .bashrc aliases:
 ```
 # git alias
