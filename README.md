@@ -30,7 +30,7 @@ GRUB_TIMEOUT=0```\
   - Night Light: Always on night light, 3,000K
   - Application style: Breeze
   - Plasma style: Breeze Dark
-  - Window decorations: Breeze (with action buttons hidden)
+  - Window decorations: MoeDark
   - Icons: Newaita-Shadow-Dark (my "custom" icon pack, with Newaita Dark icons + applications icons from Shadow icons)
   - Cursors: Bibata-Modern-Ice
   - System Sounds: FreeDesktop (Oxygen is ok too, never Ocean (sound feedback when changing volume too loud))
