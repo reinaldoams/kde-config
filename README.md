@@ -56,6 +56,8 @@ git:
     showWholeGraph: true
 ```
 ## Configuring REAPER audio devices:
+  Install pipewire if missing:
+  `sudo apt update && sudo apt install pipewire-jack pipewire-audio-client-libraries`
   Find where reaper is:\
   `find ~/.local/share/applications /usr/share/applications -name "*reaper*" 2>/dev/null`\
   then change the line starting with ` Exec= ` to\
@@ -64,11 +66,11 @@ git:
   Then reboot computer
 
 ## Setting audio interface as default:
-If JACK can't connect / no audio inputs in Reaper\
-Check what PipeWire sees:\
-```wpctl status```\
-Look under Sources for your audio interface. Note its ID number (the number at the start of the line).\
-Set it as the default source (replace 52 with the actual ID):\
-```wpctl set-default 52```\
-Verify the * asterisk moved to your interface:\
-```wpctl status | grep -A10 "Sources"```
+  If JACK can't connect / no audio inputs in Reaper\
+  Check what PipeWire sees:\
+  ```wpctl status```\
+  Look under Sources for your audio interface. Note its ID number (the number at the start of the line).\
+  Set it as the default source (replace 52 with the actual ID):\
+  ```wpctl set-default 52```\
+  Verify the * asterisk moved to your interface:\
+  ```wpctl status | grep -A10 "Sources"```
