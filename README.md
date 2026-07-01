@@ -74,3 +74,7 @@ git:
   ```wpctl set-default 52```\
   Verify the * asterisk moved to your interface:\
   ```wpctl status | grep -A10 "Sources"```
+
+## Fixing cursor in flatpak apps:
+  flatpak --user override --filesystem=~/.icons/:ro
+  flatpak --user override --filesystem=/usr/share/icons/:ro
